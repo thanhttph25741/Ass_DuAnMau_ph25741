@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+       android:gravity="center"
+        android:text="ĐỔI MẬT KHẨU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ED3333"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtpassold"
+        android:hint="Nhập mật khẩu cũ "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtpassnew"
+        android:hint="Nhập mật khẩu mới "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/edtrenewpass"
+        android:hint="Nhập lại mật khẩu mới "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+</LinearLayout>
